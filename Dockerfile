@@ -1,8 +1,8 @@
 # DOCKER-VERSION 1.5.0
 # VERSION 0.2
 
-FROM debian:wheezy
-MAINTAINER James Badger <james@jamesbadger.ca>
+FROM debian:trixie
+MAINTAINER Leonid Kolesnichenko <xperience439@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -y \
     rm -rf /var/lib/apt/lists/*
 
 ENV HOME /root
-ENV OSM2PGSQL_VERSION 0.87.2
+ENV OSM2PGSQL_VERSION 1.8.1
 
 RUN mkdir src &&\
     cd src &&\
