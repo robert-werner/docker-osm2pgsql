@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
     liblua5.2-dev \
     libpq-dev \
     libproj-dev \
-    libprotobuf-c0-dev \
+    libprotobuf-c-dev \
     libtool \
     libxml2-dev \
     lua5.2 \
