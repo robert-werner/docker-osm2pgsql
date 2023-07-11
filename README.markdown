@@ -6,7 +6,7 @@ A Docker image with [osm2pgsql](https://github.com/openstreetmap/osm2pgsql), the
 
 Can be built from the Dockerfile:
 
-    # docker build -t openfirmware/osm2pgsql github.com/openfirmware/docker-osm2pgsql.git
+    # docker build -t openfirmware/osm2pgsql github.com/robert-werner/docker-osm2pgsql.git
 
 This currently builds osm2pgsql for Debian from a specific tag; see the Dockerfile for the specific version. Alternatively, specify the tag and download the image from the Docker Hub.
 
