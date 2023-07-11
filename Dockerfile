@@ -1,6 +1,3 @@
-# DOCKER-VERSION 1.5.0
-# VERSION 0.2
-
 FROM debian:trixie
 MAINTAINER Leonid Kolesnichenko <xperience439@gmail.com>
 
